@@ -16,6 +16,10 @@ export default function Home(){
     return(
         <div>
             {
+                // if(toggle==='open'){
+                // return(<Popup/>)
+                // }
+                
                 toggle==='open'&&
                 <Popup doToggle={doToggle}/>
             }
